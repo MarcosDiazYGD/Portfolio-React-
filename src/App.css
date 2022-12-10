@@ -41,6 +41,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+.mb-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 /* ================== */
 /* ===== NAVBAR ===== */
 /* ================== */
@@ -309,8 +316,47 @@ body {
 /* ===================== */
 .skills {
   margin-top: 5rem ;
-  background: #000;
   min-height: 100vh;
+  margin: 5rem 10rem;
+  background: var(--color-third);
+  border-radius: 20px;
+  box-shadow: 0 0 20px var(--color-third);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+
+}
+
+
+.container-skill{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.container-skill-img {
+  width: 50%;
+  width: 100%;
+}
+
+.container-skill-img img{
+  width: 100%;
+}
+
+.container-skill-texts {
+  width: 50%;
+  padding: 2rem 2rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  padding-left: 2rem;
 }
 
 
